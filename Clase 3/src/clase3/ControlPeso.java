@@ -3,12 +3,14 @@ package clase3;
 public class ControlPeso extends Control{
     @Override
     public String validarCalidadDelProducto(Producto producto) {
-        if (producto.getPeso()>=1200&&producto.getPeso()>=1300) {
-            System.out.println("El peso del producto fue aceptado");
-        } else{
-            System.out.println("El producto fue rechazado");
-        }
-
-        return getSiguienteControl().validarCalidadDelProducto(producto);
+        if (producto.getPeso()>=1200&&producto.getPeso()<=1300) {
+            if (getSiguienteControl() != null) {
+                return getSiguienteControl().validarCalidadDelProducto(producto);
+            } else {
+                return "El producto fue aceptado";
+            }
+        } return "El producto fue rechazado";
     }
 }
+
+
