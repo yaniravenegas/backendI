@@ -7,13 +7,9 @@ import java.util.Map;
 
 public class ArbolFactory {
     //creamos una colección para mapear los arboles ya instanciados
-    private Map<String, Arbol> arbolMap;
+    private static Map<String, Arbol> arbolMap = new HashMap<>();
 
-    public ArbolFactory() {
-        arbolMap = new HashMap<>();
-    }
-
-    public Arbol plantarArbol(int alto, int ancho, String color, String tipoArbol) {
+    public static Arbol plantarArbol(int alto, int ancho, String color, String tipoArbol) {
         //definir la clave
         String key = alto+ancho+color+tipoArbol;
         //verificar en la colección si existe esa clave
