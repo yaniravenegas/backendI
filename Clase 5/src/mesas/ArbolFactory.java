@@ -13,14 +13,14 @@ public class ArbolFactory {
         arbolMap = new HashMap<>();
     }
 
-    public Arbol getArbol(int alto, int ancho, String color, String tipoArbol) {
+    public Arbol plantarArbol(int alto, int ancho, String color, String tipoArbol) {
         //definir la clave
         String key = alto+ancho+color+tipoArbol;
         //verificar en la colección si existe esa clave
         if(!arbolMap.containsKey(key)){
             //si no existe la clave, se crea
             arbolMap.put(key, new Arbol(alto, ancho, color, tipoArbol));
-            System.out.println("nuevo árbol creado con éxito");
+            System.out.println("nuevo árbol plantado con éxito");
         } return arbolMap.get(key);
     }
 }
