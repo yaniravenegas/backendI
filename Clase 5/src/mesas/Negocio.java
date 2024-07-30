@@ -12,5 +12,8 @@ public class Negocio {
         Arbol arbol5 = arbolFactory.getArbol(100, 200, "celeste", "florales");
         Arbol arbol6 = arbolFactory.getArbol(100, 200, "celeste", "florales");
         System.out.println("arboles creados y no instanciados: " + Arbol.getContador());
+        Runtime runtime = Runtime.getRuntime();
+        System.out.println("Memoria usada: " + (runtime.totalMemory() -
+                runtime.freeMemory()) / (1024 * 1024));
     }
 }
