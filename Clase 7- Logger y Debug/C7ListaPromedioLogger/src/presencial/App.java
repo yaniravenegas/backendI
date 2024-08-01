@@ -21,9 +21,22 @@ public class App {
         if (listaEnteros.size()>10){
             //anotabamos en el registro(logueamos)
             logger.warn("La lista tiene mas de 10: "+listaEnteros.size()+" Elementos");
-        } else if (listaEnteros.size()>5 {
+        }
+        if (listaEnteros.size()>5){
             //anotabamos en el registro(logueamos)
             logger.warn("La lista tiene mas de 5: "+listaEnteros.size()+" Elementos");
+        }
+
+    }
+    public double calcularPromedio(App listado){
+        double promedio = listaEnteros.stream().mapToInt(a -> a).average().orElse(0);
+        logger.info("El promedio de la lista es: "+ promedio);
+        return promedio;
+    }
+
+    public void verificarListaVacia() {
+        if (listaEnteros.isEmpty()){
+            logger.error("La lista está vacía");
         }
     }
 }
