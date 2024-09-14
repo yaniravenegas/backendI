@@ -1,0 +1,39 @@
+[2024-08-07 23:25:09] [ INFO ] [BD:23] Tabla ODONTOLOGOS creada con éxito
+[2024-08-07 23:25:09] [ INFO ] [OdontologoDAOH2:17] Iniciando las operaciones de guardado de un odontólogo
+[2024-08-07 23:25:09] [ INFO ] [OdontologoDAOH2:17] Iniciando las operaciones de guardado de un odontólogo
+[2024-08-07 23:25:09] [ INFO ] [OdontologoDAOH2:34] Iniciando la operación de búsqueda de todos los odontólogos
+[2024-08-07 23:36:35] [ INFO ] [BD:23] Tabla ODONTOLOGOS creada con éxito
+[2024-08-07 23:36:35] [ INFO ] [OdontologoDAOH2:17] Iniciando las operaciones de guardado de un odontólogo
+[2024-08-07 23:36:35] [ INFO ] [OdontologoDAOH2:17] Iniciando las operaciones de guardado de un odontólogo
+[2024-08-07 23:36:35] [ INFO ] [OdontologoDAOH2:34] Iniciando la operación de búsqueda de todos los odontólogos
+[2024-08-07 23:39:06] [ INFO ] [OdontologoDAOArrayList:15] Guardando un nuevo odontólogo: M1234
+[2024-08-07 23:39:06] [ INFO ] [OdontologoDAOArrayList:17] Odontólogo guardado exitosamente: Model.Odontologo@3ecf72fd
+[2024-08-07 23:39:06] [ INFO ] [OdontologoDAOArrayList:15] Guardando un nuevo odontólogo: M5678
+[2024-08-07 23:39:06] [ INFO ] [OdontologoDAOArrayList:17] Odontólogo guardado exitosamente: Model.Odontologo@483bf400
+[2024-08-07 23:39:06] [ INFO ] [OdontologoDAOArrayList:23] Buscando todos los odontólogos
+[2024-08-07 23:44:22] [ INFO ] [BD:23] Tabla ODONTOLOGOS creada con éxito
+[2024-08-07 23:44:23] [ INFO ] [OdontologoDAOH2:17] Iniciando las operaciones de guardado de un odontólogo
+[2024-08-07 23:44:23] [ INFO ] [OdontologoDAOH2:17] Iniciando las operaciones de guardado de un odontólogo
+[2024-08-07 23:44:37] [ INFO ] [BD:23] Tabla ODONTOLOGOS creada con éxito
+[2024-08-07 23:44:37] [ INFO ] [OdontologoDAOH2:17] Iniciando las operaciones de guardado de un odontólogo
+[2024-08-07 23:44:37] [ INFO ] [OdontologoDAOH2:17] Iniciando las operaciones de guardado de un odontólogo
+[2024-08-07 23:44:37] [ INFO ] [OdontologoDAOH2:34] Iniciando la operación de búsqueda de todos los odontólogos
+[2024-08-07 23:46:33] [ INFO ] [OdontologoDAOArrayList:15] Guardando un nuevo odontólogo: M1234
+[2024-08-07 23:46:33] [ INFO ] [OdontologoDAOArrayList:17] Odontólogo guardado exitosamente: Model.Odontologo@3632be31
+[2024-08-07 23:46:33] [ INFO ] [OdontologoDAOArrayList:15] Guardando un nuevo odontólogo: M5678
+[2024-08-07 23:46:33] [ INFO ] [OdontologoDAOArrayList:17] Odontólogo guardado exitosamente: Model.Odontologo@5abca1e0
+[2024-08-07 23:46:37] [ INFO ] [OdontologoDAOArrayList:15] Guardando un nuevo odontólogo: M1234
+[2024-08-07 23:46:37] [ INFO ] [OdontologoDAOArrayList:17] Odontólogo guardado exitosamente: Model.Odontologo@3632be31
+[2024-08-07 23:46:37] [ INFO ] [OdontologoDAOArrayList:15] Guardando un nuevo odontólogo: M5678
+[2024-08-07 23:46:37] [ INFO ] [OdontologoDAOArrayList:17] Odontólogo guardado exitosamente: Model.Odontologo@5abca1e0
+[2024-08-07 23:46:37] [ INFO ] [OdontologoDAOArrayList:23] Buscando todos los odontólogos
+[2024-08-07 23:46:55] [ INFO ] [OdontologoDAOArrayList:15] Guardando un nuevo odontólogo: M1234
+[2024-08-07 23:46:55] [ INFO ] [OdontologoDAOArrayList:17] Odontólogo guardado exitosamente: Model.Odontologo@3632be31
+[2024-08-07 23:46:55] [ INFO ] [OdontologoDAOArrayList:15] Guardando un nuevo odontólogo: M5678
+[2024-08-07 23:46:55] [ INFO ] [OdontologoDAOArrayList:17] Odontólogo guardado exitosamente: Model.Odontologo@5abca1e0
+[2024-08-07 23:46:55] [ INFO ] [OdontologoDAOArrayList:23] Buscando todos los odontólogos
+[2024-08-07 23:47:03] [ INFO ] [OdontologoDAOArrayList:15] Guardando un nuevo odontólogo: M1234
+[2024-08-07 23:47:03] [ INFO ] [OdontologoDAOArrayList:17] Odontólogo guardado exitosamente: Model.Odontologo@3632be31
+[2024-08-07 23:47:03] [ INFO ] [OdontologoDAOArrayList:15] Guardando un nuevo odontólogo: M5678
+[2024-08-07 23:47:03] [ INFO ] [OdontologoDAOArrayList:17] Odontólogo guardado exitosamente: Model.Odontologo@5abca1e0
+[2024-08-07 23:47:03] [ INFO ] [OdontologoDAOArrayList:23] Buscando todos los odontólogos

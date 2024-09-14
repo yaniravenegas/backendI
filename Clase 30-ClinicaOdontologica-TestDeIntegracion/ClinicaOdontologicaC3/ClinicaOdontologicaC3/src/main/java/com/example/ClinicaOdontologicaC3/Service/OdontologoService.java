@@ -1,0 +1,35 @@
+package com.example.ClinicaOdontologicaC3.Service;
+
+import com.example.ClinicaOdontologicaC3.Entity.Odontologo;
+import com.example.ClinicaOdontologicaC3.Repository.OdontologoRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Optional;
+
+@Service
+public class OdontologoService {
+    @Autowired
+    private OdontologoRepository odontologoRepository;
+
+    // Método para registrar un odontólogo
+    public Odontologo registrarOdontologo(Odontologo odontologo) {
+        return odontologoRepository.save(odontologo);
+    }
+
+    // Método para buscar un odontólogo por ID
+    public Optional<Odontologo> buscarPorId(Long id) {
+        return odontologoRepository.findById(id);
+    }
+
+    // Método para listar todos los odontólogos
+    public List<Odontologo> listarTodos() {
+        return odontologoRepository.findAll();
+    }
+
+    // Método para eliminar un odontólogo por ID
+    public void eliminarOdontologo(Long id) {
+        odontologoRepository.deleteById(id);
+    }
+}
